@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.container-header,.container-main,.container-table  {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 25px;
+    float: left;
+    margin-top: 30px;
+}
+
+.new-transition {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    background-color: rgba(165, 85, 240, 0.863);
+    color: white;
+    cursor: pointer;
+}
+
+.new-transition:hover {background-color: rgb(143, 74, 207);}
+
+.cards {
+    border-radius: 10px;
+    width: 330px;
+    height: 130px;
+    display: inline-block;
+    position: relative;
+    transform: translateY(-65px);
+    background-color: white;
+}
+
+.entradas {margin-right: 15px;}
+
+.saidas {margin-right: 15px;}
+
+.total {background-color: rgb(19, 199, 115);}
+
+.title-cards {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 15px 0 10px 10px;
+}
+
+.logo-cards {
+    display: inline-block;
+    margin: 0 0 0 190px;
+}
+
+.money {
+    font-size: 30px;
+    margin: 25px 0 0 15px;
+}
+
+.money-total {color: white;}
+
+main {
+    background-color: rgba(185, 184, 184, 0.288);
+    height: 455px;
+}
+
+table {
+    width: 98%;
+    border-collapse: collapse;
+    border-radius: none;
+}
+
+.container-table {
+    min-height: 250px;
+}
+
+.th-title {
+    width: 40%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+    margin-bottom: 10px;
+    
+}
+
+.th-preco {
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+    width: 20%;
+    text-align: left;
+}
+
+.th-categoria {
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+    width: 20%;
+    text-align: left;
+}
+
+.th-data {
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+    width: 20%;
+    text-align: left;
+}
+
+td {
+    border-spacing: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 2px;
+}
