@@ -159,9 +159,7 @@ button:hover {
     transition: all 0.2s ease-in;
 }
 
-.form-value-input form {
-    display: inline-block;
-}
+.form-value-input form {display: inline-block;}
 
 .form-value-input .name-value-input {
     width: 90%;
