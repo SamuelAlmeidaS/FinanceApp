@@ -131,7 +131,7 @@ td {
 }
 
 .forms {
-    display: flex;
+    display: none;
     justify-content: center;
     transform: translateY(-200%);
 }
@@ -151,6 +151,12 @@ td {
     margin: 15px 0 5px 50px;
     border: none;
     padding: 10px 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(170, 166, 166);
+    transition: all 0.2s ease-in;
 }
 
 .form-value-input form {
